@@ -21,8 +21,7 @@
 
 <body>
 
-    <script src="assets/js/script.js"></script>
-</body>
+
 <header>
     <h1>Welcome to Taiye's Rock, Paper, Scissors, Lizard, Spock Game!</h1>
 </header>
@@ -229,5 +228,61 @@
     </div>
 </section>
 
+  <!-- Form starts here -->
+  <div class="mainForm">
+    <form action="/submit-form" method="POST">
+        <fieldset>
+            <legend>Feedback form</legend>
+        <!-- Text input field -->
+
+            <label for="name">Name:</label>
+        <input type="text" placeholder="Firstname LastName" id="name" name="name" required>
+<br>
+   
+
+        <!-- Email input field -->
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="emailaddress@domain.com" id="email" name="email" required>
+  
+<br>
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+
+        <!-- Radio buttons -->
+        <fieldset id="gender">
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </fieldset>
+
+        <!-- Dropdown/select box -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+            <option value="nigeria">Nigeria</option>
+        </select>
+<br>
+        <!-- Textarea -->
+        <label for="message">Feedback Message:</label>
+        <textarea id="message" name="message" placeholder="Input your feedback here" rows="5" cols="80"></textarea>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</div>
+<!-- Form ends here -->
+
+<script src="assets/js/script.js"></script>
+</body>
 
 </html>
