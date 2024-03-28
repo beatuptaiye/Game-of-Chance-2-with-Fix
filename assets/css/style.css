@@ -55,7 +55,7 @@ h3 {
 
 .score {
     font-size: 100%;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .section .section-info {
@@ -63,14 +63,31 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 55px;
 }
 .info span,
 .section-info h3 {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: bold;
-    margin: 0px 10px;
+    margin: 0px 13px;
     font-family: sans-serif;
     color: white;
 }
 
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(12, 10, 39, .7);
+    height: 220px;
+}
+
+.show i {
+    font-size: 130px;
+    color: rgb(9, 197, 72);
+}
+
+.result {
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
