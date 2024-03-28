@@ -20,20 +20,48 @@
 </head>
 
 <body>
-  
+
     <script src="assets/js/script.js"></script>
 </body>
 <header>
     <h1>Welcome to Taiye's Rock, Paper, Scissors, Lizard, Spock Game!</h1>
 </header>
 <!--Start game area-->
-<section class="start=game">
+<section class="start-game">
     <div id="play-area" class="area">
-        <button class="toggle-button"
-            onclick="hideShowSection('play-area');hideShowSection('game-area')">Play:</button>
+        <button class="toggle-button" onclick="hideShowSection('play-area');hideShowSection('game-area')">Start
+            Game:</button>
 
         <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('welcome-area')">Game
             Rules:</button>
     </div>
+    <!-- game area -->
+    <div id="game-area" class="hide area">
+
+        <h2 id="demo">Are you ready?</h2>
+        <div class="container">
+            <!-- first section -->
+            <div class="section">
+                <div class="section-content">
+                    <h3>You : <span class="score" id="playerScore">0</span></h3>
+                </div>
+                <div class="show">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+            </div>
+            <!-- second section -->
+            <div class="section">
+                <div class="section-content">
+                    <h3>Computer : <span class="score" id="computerScore">0</span></h3>
+                </div>
+                <div class="show computer">
+                    <i class="fas fa-hand-scissors"></i>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+
 </section>
+
 </html>
