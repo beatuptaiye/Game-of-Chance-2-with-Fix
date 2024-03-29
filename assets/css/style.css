@@ -229,3 +229,70 @@ ol li::before {
 ol ul li::before {
     background: rgba(173, 76, 189, .7);
 }
+
+.mainForm {
+    font-size: 20px;
+border-style: solid;
+border-color: blueviolet;
+    color: rgb(174, 180, 180);
+    padding: 50px;
+    margin: auto;
+    max-width: fit-content;
+    background-color: blueviolet;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+input{
+    padding: 1px;
+    border-color: black;
+    border: 2px;
+    margin: 3px;
+    background-color: blanchedalmond;
+}
+textarea{
+    padding: 1px;
+    border-color: black;
+    border: 2px;
+    margin: 3px;
+    background-color: blanchedalmond;
+}
+
+select{
+    padding: 1px;
+    border-color: black;
+    border: 2px;
+    margin: 3px;
+    background-color: blanchedalmond;
+}
+
+/* show/hide areas */
+
+.area {
+    min-height: calc(100vh - 190px - 2.4rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 1.2rem;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+/* js message */
+
+.js-message {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.js-message a {
+    color: orange;
+}
+
+.js-message a:hover {
+    color: white;
+}

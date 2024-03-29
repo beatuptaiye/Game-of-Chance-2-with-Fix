@@ -230,7 +230,7 @@
 
   <!-- Form starts here -->
   <div class="mainForm">
-    <form action="/submit-form" method="POST">
+    <form action="/index.html" method="POST">
         <fieldset>
             <legend>Feedback form</legend>
         <!-- Text input field -->
@@ -273,10 +273,11 @@
 <br>
         <!-- Textarea -->
 
-        <textarea id="message" name="message" placeholder="Input your feedback here" rows="5" cols="80"></textarea>
+        <textarea id="message" name="message" placeholder="Input your feedback here" rows="5" cols="60"></textarea>
 <br>
         <!-- Submit button -->
-        <button type="submit">Submit</button>
+        <button type="submit" onsubmit="return validateForm">Submit</button>
+        <button type="reset">Clear</button>
         </fieldset>
     </form>
 </div>
