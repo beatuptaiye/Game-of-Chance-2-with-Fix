@@ -26,6 +26,18 @@
     - [Footer](#footer)
     - [Error](#error)
     - [Features for Future Development](#features-for-future-development)
+  - [TESTING](#testing)
+    - [Validation Testing](#validation-testing)
+    - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+    - [Outstanding Defects](#outstanding-defects)
+    - [Defects of Note](#defects-of-note)
+  - [ACCESSIBILITY](#accessibility)
+    - [Lighthouse Audit](#lighthouse-audit)
+    - [Keyboard Navigation](#keyboard-navigation)
+  - [DEPLOYMENT](#deployment)
+  - [CREDITS](#credits)
+    - [Media](#media)
+  - [ACKNOWLEDGEMENTS](#acknowledgements)
 
 
 ## UX
@@ -101,3 +113,74 @@
 - Audio for the game when a user wins or loses can add more interest.
 - Adjusting the 'It's a win/lose/tie' text to be insults from Sheldon Cooper himself.
 
+## TESTING
+
+### Validation Testing
+- HTML
+   - No errors were returned when passing through the official [HTML validator]("https://validator.w3.org/nu/?doc=https%3A%2F%2Fcaramcavinchey.github.io%2Frock-paper-scissors%2F")
+
+
+
+- CSS
+   - No errors were found when passing through the [CSS validator]("https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcaramcavinchey.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en").
+
+
+- JS validation
+   -  No errors found when passing through the JS validator.
+
+
+
+### Testing User Stories from User Experience (UX) Section
+
+**First time visitor:**
+1. As a first time visitor, I want to be able to play the game quickly and learn the rules fast. The rules need to be clear to understand and easy to refer back to.
+   1. The welcome area with the menu will allow users to navigate the page quickly and easily as needed.
+   2. The rules are displayed both as a visual and infographic grid.
+  
+**Returning visitor:**
+1. As a returning visitor, I want to be able to start playing the game once I load the page with very few clicks. If I forget the rules, I want to be able to refer back to the rules quickly. 
+   1. The close and quit buttons will help users navigate between the rules and game area.
+
+
+### Outstanding Defects
+- The footer doesn't remain fixed at the bottom of the site on all screen sizes, this isn't obvious to the user and doesn't clash with other elements. This will be fixed in future debugging.
+- The Form scrolls down on all devices
+
+### Defects of Note
+1. The resizing of the game section for smaller screen sizes had many challenges. Flexbox solved most of the issues using media queries.
+
+## ACCESSIBILITY
+
+### Lighthouse Audit
+- The deployed website was run through [web.dev measure](https://web.dev/measure/) to check performance, accessibility, best practices and SEO scores.
+ 
+
+
+### Keyboard Navigation
+- The user will be able to use the tab, arrow and enter keys if needed when navigating the website.
+
+## DEPLOYMENT
+The site was deployed to GitHub pages. The steps to deploy are as follows: In the GitHub repository, I navigated to the Settings tab From the source section drop-down menu, select the Master Branch Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found here (https://beatuptaiye.github.io/game-of-chance/)
+
+
+## CREDITS
+- This game was built with the guidance and source code from [Mehdi Aoussiad](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d)
+- and source code from [CaraMcAvinchey](https://github.com/CaraMcAvinchey/rock-paper-scissors).
+- Code Institute Student Template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- I had help from had help from w3schools, stack overflow and the code institute lessons and ChatGPT and some youtube videos
+
+### Media
+- The pairing of ZCOOL QingKe HuangYou and Open Sans were chosen using [Google Fonts](https://fonts.google.com/). 
+- The colors for the website was generated using [Coolers.co](https://coolors.co/image-picker).
+- The background image was sourced using [Pexels](https://www.pexels.com).
+- The game rules image was sourced using [Creative Commons Search](https://openclipart.org/detail/325665/rock-paper-scissors-lizard-spock).
+- The icons for the favicon, footer, about page and location headings were taken from [Font Awesome](https://fontawesome.com/).
+- The favicon image was converted using [Favicon.io](https://favicon.io/).
+- Video was gotten from youtube [wikiHow] (https://youtu.be/aQ1Nmxp55ms?si=q8He1rw3CEKPrMfy)
+
+## ACKNOWLEDGEMENTS
+- Thank you to my mentor for continuous helpful feedback and support throughout the project.
+- The tutors at Code Institute for their patience and support.
+- The Code Institute Slack community for tips and guidance.
+
+[Back to the beginning](#table-of-contents)
