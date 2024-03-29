@@ -328,6 +328,15 @@ footer a:hover {
     color: white;
 }
 
+/* error 404 page */
+
+.error-page {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
 /* media queries */
 
 /* small phones (mobile phones, 280px and bigger) */
