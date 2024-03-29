@@ -117,16 +117,21 @@
 
 ### Validation Testing
 - HTML
-   - No errors were returned when passing through the official [HTML validator]("https://validator.w3.org/nu/?doc=https%3A%2F%2Fcaramcavinchey.github.io%2Frock-paper-scissors%2F")
+   - No errors were returned when passing through the official [HTML validator]("https://validator.w3.org/nu/?doc=https%3A%2F%2Fbeatuptaiye.github.io%2Fgame-of-chance%2F")
+![image](https://github.com/beatuptaiye/game-of-chance/assets/64757307/e7bcf3ed-10ae-4a54-9741-f4d94362eab3)
 
 
 
 - CSS
-   - No errors were found when passing through the [CSS validator]("https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcaramcavinchey.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en").
+   - No errors were found when passing through the [CSS validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbeatuptaiye.github.io%2Fgame-of-chance%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+![image](https://github.com/beatuptaiye/game-of-chance/assets/64757307/a78e4725-ca11-4724-b272-f8ba7cf2f65a)
 
 
 - JS validation
-   -  No errors found when passing through the JS validator.
+   -  No errors found when passing through the JS validator(https://jshint.com/) but 16 warnigs observed due to use of let function.
+ 
+   -  ![image](https://github.com/beatuptaiye/game-of-chance/assets/64757307/13b94efb-b037-4f83-b54c-e02c5c6911b3)
+
 
 
 
@@ -152,7 +157,9 @@
 ## ACCESSIBILITY
 
 ### Lighthouse Audit
-- The deployed website was run through [web.dev measure](https://web.dev/measure/) to check performance, accessibility, best practices and SEO scores.
+- The deployed website was run through [web.dev measure]([https://web.dev/measure/](https://pagespeed.web.dev/analysis/https-beatuptaiye-github-io-game-of-chance/idb27vmd3x?form_factor=mobile))  to check performance, accessibility, best practices and SEO scores.
+- ![image](https://github.com/beatuptaiye/game-of-chance/assets/64757307/97d1c89d-2262-4f59-b0aa-c789f2eb7054)
+
  
 
 
