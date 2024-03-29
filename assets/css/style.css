@@ -392,3 +392,32 @@ footer a:hover {
         height: 180px;
     }
 }
+ 
+/* medium devices (tablets, less than 768px) */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 300%;
+    }
+
+    h2,
+    h3 {
+        font-size: 250%;
+    }
+
+    .game-rules-text {
+        font-size: 160%;
+    }
+
+    iframe {
+        height: 270px;
+        width: 270px;
+    }
+
+    footer a {
+        font-size: 160%;
+    }
+
+    .selection button {
+        font-size: 45px;
+    }
+}
