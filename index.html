@@ -31,7 +31,7 @@
             <button class="toggle-button" onclick="hideShowSection('play-area');hideShowSection('game-area')">Start
                 Game:</button>
 
-            <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('welcome-area')">Game
+            <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('play-area')">Game
                 Rules:</button>
         </div>
         <!-- game area -->
@@ -68,14 +68,14 @@
                 <button class="fas fa-hand-spock" id="spock"></button>
             </div>
             <button class="toggle-button"
-                onclick="hideShowSection('welcome-area');hideShowSection('game-area')">Quit</button>
+                onclick="hideShowSection('play-area');hideShowSection('game-area')">Quit</button>
 
         </div>
 
     </section>
     <!--Game Rules and a video to descrip same-->
     <section id="rule-area" class="hide area">
-        <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('welcome-area')">Close
+        <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('play-area')">Close
             Rules:</button>
 
         <div id="toggle-hide-show">
@@ -230,7 +230,7 @@
 
     <!-- Form starts here -->
     <div class="mainForm">
-        <form action="/index.html" method="POST">
+        <form action="https://beatuptaiye.github.io/game-of-chance/" method="POST" onsubmit="alertUser()">
             <fieldset>
                 <legend>Feedback form</legend>
                 <!-- Text input field -->
@@ -277,8 +277,9 @@
                     cols="40"></textarea>
                 <br>
                 <!-- Submit button -->
-                <button type="submit" onsubmit="return validateForm">Submit</button>
+                <button type="submit">Submit</button>
                 <button type="reset">Clear</button>
+
             </fieldset>
         </form>
     </div>
