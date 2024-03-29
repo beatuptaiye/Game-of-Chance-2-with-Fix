@@ -134,7 +134,7 @@ button:hover {
     font-family: 'ZCOOL QingKe HuangYou';
     background: rgba(110, 18, 83, 0.7);
     color: white;
-    font-size: 200%;
+    font-size: 300%;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 25%);
@@ -421,3 +421,48 @@ footer a:hover {
         font-size: 45px;
     }
 }
+/* large devices (laptops, less than 992px) */
+
+@media (min-width: 992px) {
+    header h1 {
+        font-size: 350%;
+    }
+
+    h2,
+    h3 {
+        font-size: 270%;
+    }
+
+    .game-rules-text {
+        font-size: 180%;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+
+    footer a {
+        font-size: 180%;
+    }
+
+    .selection button {
+        font-size: 55px;
+    }
+}
+
+/* extra large devices (desktops, less than 1200px) */
+
+@media (min-width: 1200px) {
+    header h1 {
+        font-size: 350%;
+    }
+
+    h2,
+    h3 {
+        font-size: 280%;
+    }
+
+    .game-rules-text {
+        font-size: 200%;
+    }
