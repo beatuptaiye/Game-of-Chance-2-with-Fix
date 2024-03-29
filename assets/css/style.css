@@ -323,3 +323,25 @@ footer a:hover {
 .js-message a:hover {
     color: white;
 }
+
+/* media queries */
+
+/* small phones (mobile phones, 280px and bigger) */
+@media (min-width: 280px) {
+    .container .section {
+        width: 280px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 250%;
+    }
+
+    .show {
+        height: 180px;
+        width: 180px;
+    }
+
+}
