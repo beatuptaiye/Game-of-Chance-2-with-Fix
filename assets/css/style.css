@@ -141,6 +141,7 @@ button:hover {
     margin-bottom: 12px;
     width: 250px;
 }
+
 /* game rules */
 
 iframe {
@@ -232,8 +233,8 @@ ol ul li::before {
 
 .mainForm {
     font-size: 20px;
-border-style: solid;
-border-color: blueviolet;
+    border-style: solid;
+    border-color: blueviolet;
     color: rgb(174, 180, 180);
     padding: 50px;
     margin: auto;
@@ -244,14 +245,8 @@ border-color: blueviolet;
     height: auto;
     padding-bottom: 100px;
 }
-input{
-    padding: 1px;
-    border-color: black;
-    border: 2px;
-    margin: 3px;
-    background-color: blanchedalmond;
-}
-textarea{
+
+input {
     padding: 1px;
     border-color: black;
     border: 2px;
@@ -259,7 +254,15 @@ textarea{
     background-color: blanchedalmond;
 }
 
-select{
+textarea {
+    padding: 1px;
+    border-color: black;
+    border: 2px;
+    margin: 3px;
+    background-color: blanchedalmond;
+}
+
+select {
     padding: 1px;
     border-color: black;
     border: 2px;
@@ -392,7 +395,7 @@ footer a:hover {
         height: 180px;
     }
 }
- 
+
 /* medium devices (tablets, less than 768px) */
 @media (min-width: 768px) {
     header h1 {
@@ -421,6 +424,7 @@ footer a:hover {
         font-size: 45px;
     }
 }
+
 /* large devices (laptops, less than 992px) */
 
 @media (min-width: 992px) {
@@ -466,3 +470,4 @@ footer a:hover {
     .game-rules-text {
         font-size: 200%;
     }
+}
